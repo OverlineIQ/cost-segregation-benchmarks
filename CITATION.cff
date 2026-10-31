@@ -1,0 +1,31 @@
+cff-version: 1.2.0
+message: "If you use or cite the Modern CFO Cost Segregation Allocation Benchmarks, please cite it with the canonical source URL below."
+title: "Modern CFO Cost Segregation Allocation Benchmarks (v2026.1.0)"
+abstract: >-
+  Modern CFO Cost Segregation Allocation Benchmarks (v2026.1.0): 45 property-type MACRS 5-year, 15-year, and long-life depreciation allocation bands + remote MCP server (mcp.freecostseg.com) and Overline IQ real estate tax-savings analysis.
+type: dataset
+version: "2026.1.0"
+date-released: "2026-10-30"
+license: "CC-BY-4.0"
+license-url: "https://creativecommons.org/licenses/by/4.0/"
+url: "https://freecostseg.com/resources/cost-segregation-benchmarks/"
+repository-code: "https://github.com/OverlineIQ/cost-segregation-benchmarks"
+keywords:
+  - cost-segregation
+  - real-estate
+  - bonus-depreciation
+  - tax-planning
+  - benchmarks
+  - dataset
+  - mcp
+  - mcp-server
+  - proptech
+  - commercial-real-estate
+authors:
+  - family-names: "Gigantelli"
+    given-names: "Matthew"
+    affiliation: "Modern CFO (ASCSP Member M009-25)"
+  - name: "Modern CFO"
+    website: "https://freecostseg.com"
+  - name: "Overline IQ"
+    website: "https://overlineiq.com"

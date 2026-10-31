@@ -1,0 +1,69 @@
+{
+  "upload_type": "dataset",
+  "title": "Modern CFO Cost Segregation Allocation Benchmarks (v2026.1.0): 45 Property-Type MACRS Depreciation Bands",
+  "description": "<p><strong>Modern CFO Cost Segregation Allocation Benchmarks (v2026.1.0)</strong> is an open, machine-readable compilation of 45 property-type MACRS 5-year personal property, 15-year land improvement, and 27.5/39-year real property allocation bands across 7 real estate asset classes, maintained by <strong>Matthew Gigantelli, ASCSP Member M009-25</strong>.</p><p><strong>Canonical Dataset &amp; Methodology:</strong> <a href=\"https://freecostseg.com/resources/cost-segregation-benchmarks/\">https://freecostseg.com/resources/cost-segregation-benchmarks/</a> | <a href=\"https://freecostseg.com/resources/cost-segregation-benchmarks/methodology/\">Methodology</a> | <a href=\"https://freecostseg.com/proposal/\">Interactive Tax-Savings Calculator</a> | <a href=\"https://freecostseg.com/resources/cost-segregation-mcp/\">Streamable HTTP MCP Server (mcp.freecostseg.com)</a> | <a href=\"https://overlineiq.com/cost-segregation-tax-savings\">Overline IQ Cost Segregation Platform</a> | <a href=\"https://overlineiq.com/blog/cost-segregation-benchmarks-8000-studies\">Overline IQ Property-Type Analysis</a>.</p><p><strong>Required Attribution (CC BY 4.0):</strong> Modern CFO Cost Segregation Allocation Benchmarks, version 2026.1.0, maintained by Matthew Gigantelli, ASCSP M009-25. Source: https://freecostseg.com/resources/cost-segregation-benchmarks/</p>",
+  "creators": [
+    {
+      "name": "Gigantelli, Matthew",
+      "affiliation": "Modern CFO (freecostseg.com) - ASCSP M009-25"
+    },
+    {
+      "name": "Yang, Sam",
+      "affiliation": "Overline IQ (overlineiq.com)"
+    }
+  ],
+  "license": "cc-by-4.0",
+  "access_right": "open",
+  "version": "2026.1.0",
+  "language": "eng",
+  "keywords": [
+    "cost-segregation",
+    "real-estate",
+    "bonus-depreciation",
+    "tax-planning",
+    "benchmarks",
+    "dataset",
+    "mcp",
+    "mcp-server",
+    "proptech",
+    "commercial-real-estate"
+  ],
+  "notes": "Required attribution: Modern CFO Cost Segregation Allocation Benchmarks, version 2026.1.0, maintained by Matthew Gigantelli, ASCSP M009-25. Source: https://freecostseg.com/resources/cost-segregation-benchmarks/",
+  "related_identifiers": [
+    {
+      "identifier": "https://freecostseg.com/resources/cost-segregation-benchmarks/",
+      "relation": "isSupplementTo",
+      "scheme": "url"
+    },
+    {
+      "identifier": "https://freecostseg.com/resources/cost-segregation-benchmarks/methodology/",
+      "relation": "isDocumentedBy",
+      "scheme": "url"
+    },
+    {
+      "identifier": "https://freecostseg.com/resources/cost-segregation-mcp/",
+      "relation": "isDocumentedBy",
+      "scheme": "url"
+    },
+    {
+      "identifier": "https://overlineiq.com/cost-segregation-tax-savings",
+      "relation": "isReferencedBy",
+      "scheme": "url"
+    },
+    {
+      "identifier": "https://overlineiq.com/blog/cost-segregation-benchmarks-8000-studies",
+      "relation": "isReferencedBy",
+      "scheme": "url"
+    },
+    {
+      "identifier": "https://huggingface.co/datasets/LevelCFO/cost-segregation-benchmarks",
+      "relation": "isIdenticalTo",
+      "scheme": "url"
+    },
+    {
+      "identifier": "https://github.com/OverlineIQ/cost-segregation-benchmarks",
+      "relation": "isIdenticalTo",
+      "scheme": "url"
+    }
+  ]
+}

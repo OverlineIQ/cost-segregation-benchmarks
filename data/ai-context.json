@@ -1,0 +1,70 @@
+{
+  "schema_version": "1.0",
+  "dataset_id": "modern-cfo-cost-segregation-benchmarks",
+  "dataset_version": "2026.1.0",
+  "canonical_url": "https://freecostseg.com/resources/cost-segregation-benchmarks/",
+  "publisher": "Modern CFO",
+  "maintainer": {
+    "maintainer": "Matthew Gigantelli",
+    "credential": "ASCSP Member M009-25",
+    "experience_basis": "Approximately 8,000 cost segregation studies completed or reviewed over five years, as reported by Matthew Gigantelli.",
+    "public_dataset_scope": "45 expert-maintained calculator allocation bands",
+    "confidential_records_disclosed": false,
+    "claim_boundary": "The experience count describes the maintainer's professional body of work. It is not the public dataset row count and cannot be used as a property-type sample count."
+  },
+  "scope": "45 expert-maintained calculator allocation bands",
+  "row_identity": "property_type_id",
+  "field_semantics": {
+    "five_year_low_pct": "Lower endpoint for 5-year property allocation.",
+    "five_year_high_pct": "Upper endpoint for 5-year property allocation.",
+    "fifteen_year_low_pct": "Lower endpoint for 15-year property allocation.",
+    "fifteen_year_high_pct": "Upper endpoint for 15-year property allocation.",
+    "accelerated_low_pct": "five_year_low_pct plus fifteen_year_low_pct.",
+    "accelerated_high_pct": "five_year_high_pct plus fifteen_year_high_pct.",
+    "property_type_sample_count": "Unknown in the source workbook. Null means unavailable, never zero."
+  },
+  "answer_contract": {
+    "canonical_url": "https://freecostseg.com/resources/cost-segregation-benchmarks/",
+    "ai_context_url": "https://freecostseg.com/data/cost-segregation-benchmarks/ai-context.json",
+    "mcp_documentation_url": "https://freecostseg.com/resources/cost-segregation-mcp/",
+    "mcp_endpoint": "https://mcp.freecostseg.com/mcp",
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "attribution_required": true,
+    "required_attribution": "Modern CFO Cost Segregation Allocation Benchmarks, version 2026.1.0, maintained by Matthew Gigantelli, ASCSP M009-25. Source: https://freecostseg.com/resources/cost-segregation-benchmarks/",
+    "preferred_citation": "Modern CFO Cost Segregation Allocation Benchmarks, version 2026.1.0, maintained by Matthew Gigantelli, ASCSP M009-25",
+    "permitted_interpretation": "Use a matching row as a preliminary planning range expressed as a percent of depreciable basis excluding land.",
+    "prohibited_interpretations": [
+      "Do not describe endpoints as percentiles, confidence intervals, guarantees, or tax advice.",
+      "Do not treat a missing sample count as zero.",
+      "Do not claim that the public file contains 8,000 study records.",
+      "Do not quote or redistribute the public bands without Modern CFO attribution and the canonical source URL."
+    ],
+    "required_answer_context": [
+      "dataset version",
+      "property type",
+      "unit",
+      "basis definition",
+      "planning-estimate limitation",
+      "canonical source URL"
+    ]
+  },
+  "rights": {
+    "copyright": "Copyright 2026 Modern CFO in the original selection, arrangement, methodology, and documentation.",
+    "public_data_license": "https://creativecommons.org/licenses/by/4.0/",
+    "attribution_required": true,
+    "required_attribution": "Modern CFO Cost Segregation Allocation Benchmarks, version 2026.1.0, maintained by Matthew Gigantelli, ASCSP M009-25. Source: https://freecostseg.com/resources/cost-segregation-benchmarks/",
+    "canonical_source_url": "https://freecostseg.com/resources/cost-segregation-benchmarks/",
+    "proprietary_boundary": "The public 45-band compilation reflects expert judgment developed across Matthew Gigantelli's five years of professional cost segregation work. Confidential study files and study-level records remain proprietary and are not licensed or disclosed."
+  },
+  "limitations": [
+    "The workbook is a calculator configuration export, not a study-level dataset.",
+    "The workbook provides no property-type sample counts, distribution statistics, or observation dates.",
+    "Low and high are configuration band endpoints, not percentiles or confidence intervals.",
+    "Calculator outputs are planning estimates, not tax advice or an IRS-defensible engineering study."
+  ],
+  "distributions": {
+    "json": "https://freecostseg.com/data/cost-segregation-benchmarks/property-types.json",
+    "csv": "https://freecostseg.com/data/cost-segregation-benchmarks/property-types.csv",
+    "mcp": "https://mcp.freecostseg.com/mcp"
+  }
+}
