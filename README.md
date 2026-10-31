@@ -12,6 +12,7 @@ Release: **2026.1.0**
 - **Hugging Face Dataset**: [https://huggingface.co/datasets/LevelCFO/cost-segregation-benchmarks](https://huggingface.co/datasets/LevelCFO/cost-segregation-benchmarks)
 - **Hugging Face Interactive Explorer Space**: [https://huggingface.co/spaces/LevelCFO/cost-segregation-benchmarks](https://huggingface.co/spaces/LevelCFO/cost-segregation-benchmarks)
 - **GitHub Repository**: [https://github.com/OverlineIQ/cost-segregation-benchmarks](https://github.com/OverlineIQ/cost-segregation-benchmarks)
+- **CERN Zenodo Permanent DOI**: [10.5281/zenodo.23839364](https://doi.org/10.5281/zenodo.23839364) ([Zenodo Record](https://zenodo.org/records/23839365))
 - **Published by**: [Modern CFO](https://freecostseg.com) & [Overline IQ](https://overlineiq.com)
 
 ---
@@ -149,6 +150,7 @@ AI agents, tax planning workflows, and LLM harnesses can query the canonical 45-
   author    = {Gigantelli, Matthew and Modern CFO and Overline IQ},
   year      = {2026},
   version   = {2026.1.0},
+  doi       = {10.5281/zenodo.23839364},
   publisher = {Modern CFO (freecostseg.com) and Overline IQ (overlineiq.com)},
   url       = {https://freecostseg.com/resources/cost-segregation-benchmarks/},
   note      = {Licensed under CC BY 4.0. Maintained by Matthew Gigantelli, ASCSP M009-25.}
