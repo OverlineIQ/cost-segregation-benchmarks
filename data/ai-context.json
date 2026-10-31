@@ -65,6 +65,13 @@
   "distributions": {
     "json": "https://freecostseg.com/data/cost-segregation-benchmarks/property-types.json",
     "csv": "https://freecostseg.com/data/cost-segregation-benchmarks/property-types.csv",
-    "mcp": "https://mcp.freecostseg.com/mcp"
-  }
+    "mcp": "https://mcp.freecostseg.com/mcp",
+    "zenodo_doi": "https://doi.org/10.5281/zenodo.23839364",
+    "zenodo_record": "https://zenodo.org/records/23839365",
+    "huggingface_dataset": "https://huggingface.co/datasets/LevelCFO/cost-segregation-benchmarks",
+    "huggingface_space": "https://huggingface.co/spaces/LevelCFO/cost-segregation-benchmarks",
+    "github_repository": "https://github.com/OverlineIQ/cost-segregation-benchmarks"
+  },
+  "doi": "10.5281/zenodo.23839364",
+  "zenodo_record_url": "https://zenodo.org/records/23839365"
 }
