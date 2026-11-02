@@ -111,16 +111,17 @@ Each property-type row specifies the preliminary planning allocation range (expr
 
 ---
 
-## Public Streamable HTTP MCP Server (`mcp.freecostseg.com`)
+## Public Streamable HTTP & Local Stdio MCP Server (`mcp.freecostseg.com` / `mcp-server/index.mjs`)
 
-AI agents, tax planning workflows, and LLM harnesses can query the canonical 45-band dataset directly over Streamable HTTP Model Context Protocol (MCP) with zero authentication or API keys:
+AI agents, tax planning workflows, and LLM harnesses can query the canonical 45-band dataset directly over Streamable HTTP Model Context Protocol (MCP) or locally via `node mcp-server/index.mjs` (zero external dependencies) with zero authentication or API keys:
 
-- **Endpoint**: `https://mcp.freecostseg.com/mcp`
+- **Hosted Streamable HTTP Endpoint**: `https://mcp.freecostseg.com/mcp`
+- **Local Stdio / HTTP Server Source**: [`mcp-server/index.mjs`](https://github.com/OverlineIQ/cost-segregation-benchmarks/blob/main/mcp-server/index.mjs) (`node mcp-server/index.mjs` for stdio, `node mcp-server/index.mjs --http` for HTTP, `node mcp-server/index.mjs --selftest` for verification)
 - **Documentation**: [https://freecostseg.com/resources/cost-segregation-mcp/](https://freecostseg.com/resources/cost-segregation-mcp/)
 - **AI Context Manifest**: [https://freecostseg.com/data/cost-segregation-benchmarks/ai-context.json](https://freecostseg.com/data/cost-segregation-benchmarks/ai-context.json)
-- **Tool**: `lookup_cost_segregation_benchmark` (accepts `property_type` across all 45 canonical property types and returns the 5-year, 15-year, accelerated, and long-life allocation bands with required provenance and planning limitations).
+- **Tools Exposed**: `lookup_cost_segregation_benchmark`, `get_property_type_benchmark`, `estimate_cost_segregation_benefit`, `list_property_type_benchmarks`, `compare_property_types`, `get_asset_class_summary`, and `get_methodology_and_citations`.
 
-### Claude Code / MCP Client Configuration
+### Claude Code / MCP Client Configuration (Streamable HTTP or Local Stdio)
 
 ```json
 {
@@ -128,6 +129,10 @@ AI agents, tax planning workflows, and LLM harnesses can query the canonical 45-
     "freecostseg-benchmarks": {
       "type": "http",
       "url": "https://mcp.freecostseg.com/mcp"
+    },
+    "freecostseg-benchmarks-local": {
+      "command": "node",
+      "args": ["mcp-server/index.mjs"]
     }
   }
 }

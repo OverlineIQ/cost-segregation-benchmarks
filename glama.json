@@ -4,7 +4,7 @@
     "samtlyoung"
   ],
   "name": "Modern CFO Cost Segregation Benchmark MCP",
-  "description": "Zero-auth Streamable HTTP MCP server (https://mcp.freecostseg.com/mcp) serving 45 property-type MACRS 5-year, 15-year, and long-life cost segregation allocation bands from Modern CFO (freecostseg.com) and Overline IQ (overlineiq.com).",
+  "description": "Zero-auth Streamable HTTP and stdio MCP server (https://mcp.freecostseg.com/mcp) serving 45 property-type MACRS 5-year, 15-year, and long-life cost segregation allocation bands from Modern CFO (freecostseg.com) and Overline IQ (overlineiq.com).",
   "homepage": "https://freecostseg.com/resources/cost-segregation-mcp/",
   "endpoints": [
     {

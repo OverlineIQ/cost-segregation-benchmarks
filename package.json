@@ -1,0 +1,31 @@
+{
+  "name": "@overlineiq/cost-segregation-benchmarks",
+  "version": "2026.1.0",
+  "description": "Modern CFO Cost Segregation Allocation Benchmarks (v2026.1.0): 45 property-type MACRS 5-year, 15-year, and long-life depreciation allocation bands + remote MCP server (mcp.freecostseg.com) and Overline IQ real estate tax-savings analysis.",
+  "license": "CC-BY-4.0",
+  "author": "Modern CFO (freecostseg.com) & Overline IQ (overlineiq.com)",
+  "homepage": "https://freecostseg.com/resources/cost-segregation-mcp/",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/OverlineIQ/cost-segregation-benchmarks.git"
+  },
+  "type": "module",
+  "main": "./mcp-server/index.mjs",
+  "bin": {
+    "cost-segregation-mcp": "./mcp-server/index.mjs"
+  },
+  "files": [
+    "mcp-server",
+    "data",
+    "SKILL.md",
+    "README.md",
+    "CITATION.cff",
+    "LICENSE",
+    "glama.json"
+  ],
+  "scripts": {
+    "start": "node mcp-server/index.mjs",
+    "start:http": "node mcp-server/index.mjs --http",
+    "test": "node mcp-server/index.mjs --selftest"
+  }
+}
