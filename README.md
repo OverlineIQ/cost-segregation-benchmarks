@@ -1,5 +1,7 @@
 # Modern CFO Cost Segregation Allocation Benchmarks (v2026.1.0)
 
+[![M8ven Score](https://m8ven.ai/badge/mcp/overlineiq-cost-segregation-benchmarks-1gg7od?v=7bae25a8dba5f8827510c6dbcffcddfe)](https://m8ven.ai/mcp/overlineiq-cost-segregation-benchmarks-1gg7od?s=readme)
+
 Release: **2026.1.0**
 
 - **Canonical Benchmark Dataset Page**: [https://freecostseg.com/resources/cost-segregation-benchmarks/](https://freecostseg.com/resources/cost-segregation-benchmarks/)
