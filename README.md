@@ -1,7 +1,5 @@
 # Modern CFO Cost Segregation Allocation Benchmarks (v2026.1.0)
 
-[![M8ven Score](https://m8ven.ai/badge/mcp/overlineiq-cost-segregation-benchmarks-1gg7od?v=7bae25a8dba5f8827510c6dbcffcddfe)](https://m8ven.ai/mcp/overlineiq-cost-segregation-benchmarks-1gg7od?s=readme)
-
 Release: **2026.1.0**
 
 - **Canonical Benchmark Dataset Page**: [https://freecostseg.com/resources/cost-segregation-benchmarks/](https://freecostseg.com/resources/cost-segregation-benchmarks/)
@@ -54,8 +52,8 @@ Each property-type row specifies the preliminary planning allocation range (expr
 | **Single-Family Residential & Small Multi-Family** (`single-family-residential`) | 6 | 12% to 40% | 0% to 12% | **14% to 40%** | 60% to 86% |
 | **Multi-Family Residential & Mixed-Use** (`multi-family-residential`) | 6 | 14% to 24% | 2% to 16% | **16% to 40%** | 60% to 84% |
 | **Commercial & Medical Office** (`office`) | 9 | 5% to 42% | 0% to 16% | **12% to 42%** | 58% to 88% |
-| **Retail, Restaurant & Strip Centers** (`retail`) | 8 | 14% to 42% | 0% to 66% | **22% to 100%** | 0% to 78% |
-| **Automotive, Car Wash & Fuel Stations** (`automotive`) | 3 | 16% to 42% | 10% to 58% | **26% to 100%** | 0% to 74% |
+| **Retail, Restaurant & Strip Centers** (`retail`) | 8 | 14% to 42% | 0% to 68% | **22% to 100%** | 0% to 78% |
+| **Automotive, Car Wash & Fuel Stations** (`automotive`) | 3 | 16% to 42% | 10% to 62% | **26% to 100%** | 0% to 74% |
 | **Hospitality, Senior Housing & Childcare** (`hospitality`) | 7 | 12% to 24% | 8% to 32% | **22% to 52%** | 48% to 78% |
 | **Industrial, Warehouse & Self-Storage** (`industrial`) | 6 | 5% to 28% | 8% to 34% | **15% to 58%** | 42% to 85% |
 

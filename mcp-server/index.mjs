@@ -130,7 +130,10 @@ export function callTool(name, args = {}) {
     const landPct = args.land_pct === undefined ? 20 : Number(args.land_pct);
     const bonusPct = args.bonus_depreciation_pct === undefined ? 100 : Number(args.bonus_depreciation_pct);
     const taxRatePct = args.marginal_tax_rate_pct === undefined ? 37 : Number(args.marginal_tax_rate_pct);
-    if (!Number.isFinite(price) || price <= 0) throw new Error('purchase_price_usd must be a positive number');
+    if (!Number.isFinite(price) || price < 10000 || price > 1000000000) throw new Error('purchase_price_usd must be between 10000 and 1000000000');
+    if (!Number.isFinite(landPct) || landPct < 0 || landPct > 90) throw new Error('land_pct must be between 0 and 90');
+    if (!Number.isFinite(bonusPct) || bonusPct < 0 || bonusPct > 100) throw new Error('bonus_depreciation_pct must be between 0 and 100');
+    if (!Number.isFinite(taxRatePct) || taxRatePct < 0 || taxRatePct > 60) throw new Error('marginal_tax_rate_pct must be between 0 and 60');
     const depreciableBasis = Math.round(price * (1 - landPct / 100));
     const accLowUsd = Math.round((depreciableBasis * match.accelerated_low_pct) / 100);
     const accHighUsd = Math.round((depreciableBasis * match.accelerated_high_pct) / 100);

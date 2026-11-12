@@ -15,10 +15,10 @@
   "scope": "45 expert-maintained calculator allocation bands",
   "row_identity": "property_type_id",
   "field_semantics": {
-    "five_year_low_pct": "Lower endpoint for 5-year property allocation.",
-    "five_year_high_pct": "Upper endpoint for 5-year property allocation.",
-    "fifteen_year_low_pct": "Lower endpoint for 15-year property allocation.",
-    "fifteen_year_high_pct": "Upper endpoint for 15-year property allocation.",
+    "five_year_low_pct": "Baseline-scenario endpoint for 5-year property allocation.",
+    "five_year_high_pct": "Upper-scenario endpoint for 5-year property allocation.",
+    "fifteen_year_low_pct": "Baseline-scenario endpoint for 15-year property allocation (paired with five_year_low_pct so baseline 5-year plus 15-year equals accelerated_low_pct).",
+    "fifteen_year_high_pct": "Upper-scenario endpoint for 15-year property allocation (paired with five_year_high_pct so upper 5-year plus 15-year equals accelerated_high_pct; for 90% to 100% accelerated fuel and car-wash classes, higher 5-year allocation pairs with lower 15-year allocation).",
     "accelerated_low_pct": "five_year_low_pct plus fifteen_year_low_pct.",
     "accelerated_high_pct": "five_year_high_pct plus fifteen_year_high_pct.",
     "property_type_sample_count": "Unknown in the source workbook. Null means unavailable, never zero."
